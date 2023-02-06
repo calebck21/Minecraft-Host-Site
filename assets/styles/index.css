@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Minecraft-Font;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.h1-title {
+    font-size: 22px;
+    font-family: Minecraft-Font;
+    width: 165px;
+    height: 30px;
+    margin-left: 1.9px;
+    padding: 14px;
+    border-radius: 12px;
+    background-image: url(../image/backgorund/END-STONE-WEBP.webp)
+}
+
+#Background-Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*------------FONT FAMILY------------*/
+
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf)
+}
+
+@font-face {
+    font-family: Minecraft-Font;
+    src: url(../font/minecraft-4-cdnfonts/MinecraftTen-VGORe.ttf)
+}
+
+/*------------ FONT FAMILY END ------------*/
+
+.menu-a-1 {
+    padding: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.menu-a-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.menu-a-3 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.menu-content {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 30px;
+}
+
+.menu-content a {
+    padding: 22px 36px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 500ms;
+    font-family: Minecraft-Font;
+    font-size: 25px;
+    background-color: #00AAAA;
+}
+
+.menu-content a:hover {
+    padding: 26px 38px;
+    border-radius: 12px;
+    transition: 400ms;
+    font-size: 28px;
+    font-family: Minecraft-Font;
+    color: #dd562d;
+    background: #d1d1d1;
+}
+
+.menu-content a:active {
+    background-image: url(../image/backgorund/PNG\ NETHER.png)
+}
+
+
+/*-----------------------------------*/
+.Buttons-Body-Content {
+    width: 1400px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    color: white;
+}
+
+.main-content-body {
+    margin: 0;
+    margin-top: 200px;
+    width: 1000px;
+    height: 1100px;
+    border-radius: 12px;
+    position: relative;
+    left: 230px;
+    background-color: #00AAAA;
+}
+
+.Title-Container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-Title {
+    width: 600px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Paragraph-Title {
+    font-size: 24px;
+    width: 300px;
+    height: 200px;
+    ;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.button-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: .5px;
+    text-align: center;
+    color: purple;
+}
+
+.color-link {
+    color: green;
+}
+
+/*--------------------------------------*/
+.download-1 {
+    width: 190px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    background-image: url(../image/button-backgrounds/obsidian.png)
+}
+
+.download-1:hover {
+    width: 195px;
+    height: 65px;
+    border-radius: 12px;
+    transition: 500ms;
+    background-image: url(../image/backgorund/PNG-NETHER.png)
+}
+
+.download-1:active {
+    border-color: yellow;
+}
+
+.download-btn-1 {
+    color: white;
+    font-family: Minecraft-Font;
+}
+
+
+/*---------------------------*/
+.download-2 {
+    width: 190px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    background-image: url(../image/button-backgrounds/obsidian.png)
+}
+
+.download-2:hover {
+    width: 195px;
+    height: 65px;
+    border-radius: 12px;
+    transition: 500ms;
+    background-image: url(../image/backgorund/PNG-NETHER.png)
+}
+
+.download-2:active {
+    border-color: yellow;
+}
+
+.download-btn-2 {
+    color: white;
+    font-family: Minecraft-Font;
+}
+
+/*---------------------------*/
+.download-3 {
+    width: 190px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    background-image: url(../image/button-backgrounds/obsidian.png)
+}
+
+.download-3:hover {
+    width: 195px;
+    height: 65px;
+    border-radius: 12px;
+    transition: 500ms;
+    background-image: url(../image/backgorund/PNG-NETHER.png)
+}
+
+.download-3:active {
+    border-color: yellow;
+}
+
+.download-btn-3 {
+    color: white;
+    font-family: Minecraft-Font;
+}
+
+/*---------------------------*/
+.download-4 {
+    width: 190px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    background-image: url(../image/button-backgrounds/obsidian.png)
+}
+
+.download-4:hover {
+    width: 195px;
+    height: 65px;
+    border-radius: 12px;
+    transition: 500ms;
+    background-image: url(../image/backgorund/PNG-NETHER.png)
+}
+
+.download-4:active {
+    border-color: yellow;
+}
+
+/*---------------------------*/
+.download-5 {
+    width: 190px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    background-image: url(../image/button-backgrounds/obsidian.png)
+}
+
+.download-5:hover {
+    width: 195px;
+    height: 65px;
+    border-radius: 12px;
+    transition: 500ms;
+    background-image: url(../image/backgorund/PNG-NETHER.png)
+}
+
+.download-5:active {
+    border-color: yellow;
+}
+
+/*--------------------------------*/
+
+#content-video-1 {
+    width: 500px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    position: relative;
+    left: 460px;
+    bottom: 190px;
+}
+
+#content-video-1:hover {
+  width: 550px;
+  transition: 500ms;  
+}
+
+#content-video-2 {
+    width: 500px;
+    transition: 500ms;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    position: relative;
+    left: 460px;
+    bottom: 130px;
+}
+
+ #content-video-2:hover {
+    width: 550px;
+    transition: 500ms;
+ }
