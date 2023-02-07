@@ -1,0 +1,1 @@
+alert ('This Website is not finnished and may look weird on your screen depending on the device your using!');
