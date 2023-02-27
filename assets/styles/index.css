@@ -12,7 +12,8 @@ h1 {
 .h1-title {
     font-size: 22px;
     font-family: Minecraft-Font;
-    margin-left: 9px;
+    align-items: center;
+    margin-left: 4px;
     width: 180px;
     height: 40px;
     padding: 14px;
@@ -112,7 +113,7 @@ h1 {
 .main-content-body {
     margin: 0;
     margin-top: 200px;
-    margin-left: 228px;
+    margin-left: 278px;
     width: 1200px;
     height: 1100px;
     border-radius: 12px;
@@ -146,7 +147,7 @@ h1 {
 .button-link-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     position: absolute;
     top: .5px;
     text-align: center;
@@ -170,8 +171,8 @@ h1 {
 }
 
 .download-1:hover {
-    width: 195px;
-    height: 65px;
+    width: 220px;
+    height: 75px;
     border-radius: 12px;
     transition: 500ms;
     background-image: url(../image/backgorund/PNG-NETHER.png)
@@ -190,7 +191,7 @@ h1 {
 /*---------------------------*/
 .download-2 {
     width: 210px;
-    height: 70px;
+    height: 75px;
     border-radius: 12px;
     transition: 500ms;
     border-color: white;
@@ -200,8 +201,8 @@ h1 {
 }
 
 .download-2:hover {
-    width: 195px;
-    height: 65px;
+    width: 220px;
+    height: 80px;
     border-radius: 12px;
     transition: 500ms;
     background-image: url(../image/backgorund/PNG-NETHER.png)
@@ -222,6 +223,10 @@ h1 {
     font-weight: 16px;
     font-family: Minecraft-Font;
 }
+
+.temp-down {
+   padding-bottom: 4px; 
+}
 /*---------------------------*/
 .download-3 {
     width: 210px;
@@ -235,8 +240,8 @@ h1 {
 }
 
 .download-3:hover {
-    width: 195px;
-    height: 65px;
+    width: 220px;
+    height: 75px;
     border-radius: 12px;
     transition: 500ms;
     background-image: url(../image/backgorund/PNG-NETHER.png)
@@ -264,8 +269,8 @@ h1 {
 }
 
 .download-4:hover {
-    width: 195px;
-    height: 65px;
+    width: 220px;
+    height: 75px;
     border-radius: 12px;
     transition: 500ms;
     background-image: url(../image/backgorund/PNG-NETHER.png)
@@ -288,8 +293,8 @@ h1 {
 }
 
 .download-5:hover {
-    width: 195px;
-    height: 65px;
+    width: 220px;
+    height: 75px;
     border-radius: 12px;
     transition: 500ms;
     background-image: url(../image/backgorund/PNG-NETHER.png)
