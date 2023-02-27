@@ -310,7 +310,7 @@ h1 {
     border-width: 4px;
     border-radius: 10px;
     position: relative;
-    left: 460px;
+    left: 650px;
     bottom: 190px;
 }
 
@@ -327,8 +327,8 @@ h1 {
     border-width: 4px;
     border-radius: 10px;
     position: relative;
-    left: 460px;
-    bottom: 130px;
+    left: 138px;
+    bottom: -150px;
 }
 
  #content-video-2:hover {
